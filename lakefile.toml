@@ -1,0 +1,16 @@
+name = "DiamondExample-D"
+version = "0.1.0"
+defaultTargets = ["DiamondExampleD"]
+
+[[require]]
+name = "DiamondExample-B"
+git = "https://github.com/kim-em/DiamondExample-B"
+rev = "main"
+
+[[require]]
+name = "DiamondExample-C"
+git = "https://github.com/kim-em/DiamondExample-C"
+rev = "v1"
+
+[[lean_lib]]
+name = "DiamondExampleD"

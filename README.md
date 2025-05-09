@@ -1,0 +1,1 @@
+# DiamondExample-D
